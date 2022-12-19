@@ -1,0 +1,91 @@
+.popup {
+    max-width: 400px;
+    background-color: #eeee;
+    height: 300px;
+    border-radius: 20px;
+    transform: translate(0, -120%);
+    text-align: center;
+    padding: 100px 0 0 0;
+    box-shadow: 5px 5px 5px 2px #eee;
+}
+
+.popup img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: -50%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.popup button {
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(44, 177, 44);
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 26px;
+    align-items: center;
+}
+
+.popup .xx {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.popup .xx:hover {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.opn {
+    visibility: visible;
+}
+
+.formapp {
+    background-color: #eeee;
+    height: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    transform: translate(0, -130%);
+}
+
+.formapp input[type=text] {
+    margin: 10px;
+    border: none;
+    height: 40px;
+    border: 2px solid #ab3550;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.formapp input[type=submit] {
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+
+.formapp button {
+    width: 90%;
+    background-color: green;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+}
